@@ -4,6 +4,7 @@ public class Student {
     Integer id;
     String name;
     Integer BirthYear;
+    Student student;
 
     public Student() {
     }
@@ -11,7 +12,7 @@ public class Student {
     public Student(Integer id, String name, Integer birthYear) {
         this.id = id;
         this.name = name;
-        BirthYear = birthYear;
+        this.BirthYear = birthYear;
     }
 
     public Integer getId() {
@@ -37,6 +38,12 @@ public class Student {
     public void setBirthYear(Integer birthYear) {
         BirthYear = birthYear;
     }
+
+    public Student getStudent() {
+        return new Student(id,name,BirthYear);
+    }
+
+
     public String toString(){
         return ("\n"+"ID : "+id.toString()+"\n"+"Name : "+name+"\n"+"BirthYear : "+BirthYear.toString()+"\n");
     }

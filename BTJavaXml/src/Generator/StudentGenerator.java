@@ -11,17 +11,17 @@ public class StudentGenerator {
     public StudentGenerator() {
     }
 
-    public ArrayList<Student> GenerateStudent(){
-        for (long i = 0; i < 1000; i++) {
-            students.add(new Student(randomId(),randomName(),randomBirthYear()));
+    public ArrayList<Student> GenerateStudent(Integer numberofStudent){
+        for (long i = 0; i < numberofStudent; i++) {
+            students.add(new Student(randomId(numberofStudent),randomName(),randomBirthYear()));
         }
         return  students;
     }
-    private Integer randomId(){
+    private Integer randomId(Integer numberofStudent){
         Random random = new Random();
         Integer randomNumber;
         do{
-           randomNumber = random.nextInt(100000)+16025500;
+           randomNumber = random.nextInt(numberofStudent)+16025500;
         }while (numberRepo.contains(randomNumber));
         numberRepo.add(randomNumber);
         return  randomNumber;
@@ -37,10 +37,10 @@ public class StudentGenerator {
         return Index;
     }
     private String randomName(){
-        String[] LastName = new String[]{"Nguyễn","Lê","Trần","Vươnng","Huyền","Louis","Jean","Trương","Hoài","Trương","Ngô","Đình"};
+        String[] LastName = new String[]{"Nguyễn","Xuân","Lê","Trần","Vươnng","Huyền","Louis","Jean","Trương","Hoài","Trương","Ngô","Đình","Chi"};
         String[] MidName = new String[]{"","","","","","Thị","Văn","Vân","Nguyên","Xuân","Nhật","Nhất","Adams","Lực","Tường","Thụy"};
-        String[] FirstName = new String[]{"Đình","Định","Tuấn","Tùng","Thanh","Khôi","Phúc","Thức","Vy","Nhân","Tri","Ly","Thảo","Trí","Bình","MBappe","Giroud","Grizeman"};
-        String[] SubFirstName = new String[]{"","","","","","","","Miên","Lương","Của","Cái","Trân","Phúc"};
+        String[] FirstName = new String[]{"Đình","Định","Pu","Phước","Chung","Trung","Bắc","Tuấn","Tùng","Thanh","Khôi","Phúc","Thức","Vy","Nhân","Tri","Ly","Thảo","Trí","Bình","MBappe","Giroud","Grizeman"};
+        String[] SubFirstName = new String[]{"","","","","","","","Miên","Lương","Của","Cái","Trân","Phúc","Phương"};
         //Generated Name
         String Name = LastName[randomIndex(0,LastName.length)]+" "+
                 MidName[randomIndex(0,MidName.length)]+" "+

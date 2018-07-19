@@ -4,29 +4,27 @@ import Generator.StudentGenerator;
 import Model.Student;
 import OutputText.OutputFileText;
 import OutputXML.OutputFileXML;
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
+import StudentManagement.StudentManager;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import java.util.ArrayList;
 
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-
         try{
             //Generate students
             StudentGenerator studentGenerator = new StudentGenerator();
-            ArrayList<Student> data = studentGenerator.GenerateStudent();
+            ArrayList<Student> data = studentGenerator.GenerateStudent(2000);
             //write file XML
             OutputFileXML outputFileXML = new OutputFileXML();
             outputFileXML.WriteFileXml(data);
             //write file Text
             OutputFileText outputFileText = new OutputFileText();
             outputFileText.WriteFileText(data);
-
+            //Find Student by ID
+            StudentManager studentManager = new StudentManager(data);
+            studentManager.FindStudentById();
+            studentManager.FindStudentbyName();
 
         }catch (Exception e){
             e.printStackTrace();

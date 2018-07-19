@@ -1,7 +1,6 @@
 package OutputText;
 
 import Model.Student;
-import org.w3c.dom.Document;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
