@@ -37,4 +37,7 @@ public class Student {
     public void setBirthYear(Integer birthYear) {
         BirthYear = birthYear;
     }
+    public String toString(){
+        return ("\n"+"ID : "+id.toString()+"\n"+"Name : "+name+"\n"+"BirthYear : "+BirthYear.toString()+"\n");
+    }
 }
