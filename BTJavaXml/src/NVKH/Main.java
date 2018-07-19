@@ -14,7 +14,7 @@ public class Main {
         try{
             //Generate students
             StudentGenerator studentGenerator = new StudentGenerator();
-            ArrayList<Student> data = studentGenerator.GenerateStudent(2000);
+            ArrayList<Student> data = studentGenerator.GenerateStudent(1000);
             //write file XML
             OutputFileXML outputFileXML = new OutputFileXML();
             outputFileXML.WriteFileXml(data);

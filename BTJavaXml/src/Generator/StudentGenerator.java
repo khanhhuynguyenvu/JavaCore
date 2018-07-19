@@ -39,7 +39,7 @@ public class StudentGenerator {
     private String randomName(){
         String[] LastName = new String[]{"Nguyễn","Xuân","Lê","Trần","Vươnng","Huyền","Louis","Jean","Trương","Hoài","Trương","Ngô","Đình","Chi"};
         String[] MidName = new String[]{"","","","","","Thị","Văn","Vân","Nguyên","Xuân","Nhật","Nhất","Adams","Lực","Tường","Thụy"};
-        String[] FirstName = new String[]{"Đình","Định","Pu","Phước","Chung","Trung","Bắc","Tuấn","Tùng","Thanh","Khôi","Phúc","Thức","Vy","Nhân","Tri","Ly","Thảo","Trí","Bình","MBappe","Giroud","Grizeman"};
+        String[] FirstName = new String[]{"Đình","Định","Pu","Phước","Chung","Trung","Bắc","Viết","Tuấn","Tùng","Thanh","Khôi","Phúc","Thức","Vy","Nhân","Tri","Ly","Thảo","Trí","Bình","MBappe","Giroud","Grizeman"};
         String[] SubFirstName = new String[]{"","","","","","","","Miên","Lương","Của","Cái","Trân","Phúc","Phương"};
         //Generated Name
         String Name = LastName[randomIndex(0,LastName.length)]+" "+

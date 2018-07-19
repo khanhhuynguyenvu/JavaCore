@@ -2,9 +2,7 @@ package StudentManagement;
 
 import Model.Student;
 
-import java.util.ArrayList;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class StudentManager {
@@ -12,13 +10,14 @@ public class StudentManager {
     private Map<Integer,Student> mapStudentsID;
     private Map<String,ArrayList<Student>> mapStudentsName;
     //Constructor
-    public StudentManager(ArrayList<Student> students) {
+    public StudentManager(ArrayList<Student> students){
         this.students = students;
         this.mapStudentsID = students.stream().collect(Collectors.toMap(Student::getId,Student::getStudent));
+        this.mapStudentsName = new HashMap<>();
         for (Student student : students){
             String dummyname = student.getName();
-            if(mapStudentsName.get(dummyname) == null){
-                this.mapStudentsName.put(dummyname,new ArrayList<>());
+            if(!mapStudentsName.containsKey(dummyname)){
+                this.mapStudentsName.put(dummyname,new ArrayList<>(Arrays.asList(student)));
             }else {
                 this.mapStudentsName.get(dummyname).add(student);
                 this.mapStudentsName.put(dummyname, this.mapStudentsName.get(dummyname));
@@ -28,33 +27,33 @@ public class StudentManager {
     //Find student by name
     public void FindStudentbyName(){
         Scanner scanner = new Scanner(System.in);
-        Integer isExit;
+        String isExit;
         do {
-            System.out.printf("Nhap Name hoc sinh can tim :");
+            System.out.printf("Nhap Name học sinh cần tìm là:");
             String name = scanner.nextLine();
             //Start time
             Long startTime = System.nanoTime() ;
-            ArrayList<Student> student = GetStudentbyName(name);
-            if (student != null) {
-                System.out.println("Thong tin cac hoc sinh can tim la:");
-                for (Student student1 : students){
+            ArrayList<Student> studentsSameName = GetStudentbyName(name);
+            if (studentsSameName != null) {
+                System.out.println("Thông tin các học sinh cần tìm là:");
+                for (Student student1 : studentsSameName){
                     System.out.println(student1.toString());
                 }
             } else {
-                System.out.println("Khong tim thay hoc sinh tren!");
+                System.out.println("Khong tìm thấy tên của học sinh trên!");
             }
             Long endTime = System.nanoTime();
             //End Time
             Double duration = (endTime-startTime)/1000.0;
             System.out.println("  >>> Runtime = "+duration.toString());
-            System.out.printf("Nhap 0 de tiep tuc tim kiem:");
-            isExit  = scanner.nextInt();
-        }while (isExit.equals(0));
+            System.out.printf("Nhập 0 de Tiếp tục, 1 de Thoát:");
+            isExit  = scanner.nextLine();
+        }while (isExit.equals("0"));
     }
     //Get student list by name
     public ArrayList<Student> GetStudentbyName(String name){
-        ArrayList<Student> arrayStudent = mapStudentsName.get(name);
-        if(arrayStudent != null){
+        ArrayList<Student> arrayStudent = new ArrayList<>(mapStudentsName.get(name));
+        if(arrayStudent.size() > 0){
             return arrayStudent;
         }else {
             return  null;
@@ -74,13 +73,13 @@ public class StudentManager {
                 System.out.println("Thong tin hoc sinh can tim la:");
                 System.out.println(student.toString());
             } else {
-                System.out.println("Khong tim thay hoc sinh tren!");
+                System.out.println("Khong tim thay Id hoc sinh tren!");
             }
             Long endTime = System.nanoTime();
             //End Time
             Double duration = (endTime-startTime)/1000.0;
             System.out.println("  >>> Runtime = "+duration.toString());
-            System.out.printf("Nhap 0 de tiep tuc tim kiem:");
+            System.out.printf("Nhap 0 de Tiep tuc, 1 de Thoat:");
             isExit  = scanner.nextInt();
         }while (isExit.equals(0));
     }
