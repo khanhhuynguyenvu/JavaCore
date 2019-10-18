@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author khanh
- *
- */
-module JavaCorePractises {
-}
