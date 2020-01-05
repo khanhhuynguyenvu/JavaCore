@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="63898df0-ba3a-44f6-8104-92a42bfb7d5d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCoreStation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/generics/GenericType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/generics/generics_interface/interfaces/IntefImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/generics/generics_interface/interfaces/Interf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/generics/generics_interface/interfaces/Model_One_Interf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/generics/generics_interface/interfaces/Model_One_Interf_Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/generics/generics_interface/model/ModelOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/generics/generics_interface/model/ModelTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/generics/test/GenericsTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/oop/abstractclass/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/oop/abstractclass/Officer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/oop/abstractclass/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/oop/abstractclass/TestAbstractClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/oop/abstraction/AutomaticCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/oop/abstraction/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/oop/abstraction/ManualCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/oop/abstraction/TestAbstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nvkh/main/oop/xam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/JavaCoreStation.kotlin_module" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideInfoMessages" value="true" />
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
+    <option name="HIDE_INFO_MESSAGES" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VyrngML3zxeZsEJCfb8h9tWzEZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/nvkh" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/nvkh" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.TestAbstraction">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="nvkh.Main" />
+      <module name="JavaCoreStation" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAbstractClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nvkh.main.oop.abstractclass.TestAbstractClass" />
+      <module name="JavaCoreStation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nvkh.main.oop.abstractclass.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAbstraction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="nvkh.main.oop.abstraction.TestAbstraction" />
+      <module name="JavaCoreStation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nvkh.main.oop.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericsTesting" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaCoreStation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nvkh.main.generics.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nvkh.main.generics.test" />
+      <option name="MAIN_CLASS_NAME" value="nvkh.main.generics.test.GenericsTesting" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TestAbstractClass" />
+      <item itemvalue="JUnit.GenericsTesting" />
+      <item itemvalue="Application.TestAbstraction" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestAbstraction" />
+        <item itemvalue="Application.TestAbstractClass" />
+        <item itemvalue="JUnit.GenericsTesting" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="63898df0-ba3a-44f6-8104-92a42bfb7d5d" name="Default Changelist" comment="" />
+      <created>1578236344385</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578236344385</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="555" y="214" width="847" height="677" key="#Project_Structure" timestamp="1578236373971">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="555" y="214" width="847" height="677" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1578236373971" />
+    <state x="665" y="222" width="579" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578236391417">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="665" y="222" width="579" height="661" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1578236391417" />
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1578237635262">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1578237635262" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1578237635260">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1578237635260" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1578237635260">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1578237635260" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1578237635261">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1578237635261" />
+    <state x="443" y="130" width="1024" height="845" key="SettingsEditor" timestamp="1578237555611">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="443" y="130" width="1024" height="845" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1578237555611" />
+  </component>
+</project>
