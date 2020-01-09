@@ -17,13 +17,17 @@ public class BotWrite extends Thread{
             }
             FileWriter fw = new FileWriter(file.getAbsoluteFile(),true);
             BufferedWriter bw = new BufferedWriter(fw);
-            synchronized(this){
-                int f = new Random().nextInt();
-                bw.write(f + "\n");        // write to file
-                bw.close();
+            for (int i = 0; i < 10; i++) {
+                    synchronized(this){
+                    int f = new Random().nextInt();
+                    Thread.sleep(100);
+                    bw.write(f + "\n");        // write to file
+//                    bw.close();
+                }
             }
+            bw.close();
         }
-        catch (IOException e)
+        catch (IOException | InterruptedException e)
         {
             e.printStackTrace();
         }
